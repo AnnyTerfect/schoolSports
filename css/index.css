@@ -11,6 +11,13 @@ ul
 {
     background:#F0F0F0;
 }
+@media(max-width:479px)
+{
+    #logo_bar
+    {
+        display:none;
+    }
+}
 #logo_cont
 {
     max-width:960px;
@@ -34,6 +41,18 @@ ul
     overflow: hidden;
     transition:500ms;
 }
+#nav_empty
+{
+    display:none;
+    height:40px;
+}
+@media (max-width:479px)
+{
+    #nav_empty
+    {
+        display:block;
+    }
+}
 .nav-block
 {
     float:left;
@@ -56,10 +75,6 @@ ul
         position: absolute;
         width:100%;
         z-index: 10;
-    }
-    #slide_bar
-    {
-        margin-top:40px;
     }
     .nav-block
     {
@@ -330,4 +345,5 @@ ul
     padding:10px 0;
     text-align: center;
     font-size:12px;
+    color:#DDD;
 }
