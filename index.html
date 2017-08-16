@@ -2,6 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximun-scale=1.0;user-scalable=0">
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
 	<link rel="stylesheet" href="css/index.css">
 	<title></title>
 </head>
@@ -38,23 +39,16 @@
 		</div>
 	</div>
 	<div id="slide_bar">
-		<div id="slide_cont">
-			<div id="slide_wrap">
-				<div class="slide-show slide0">
+		<div class="swiper-container" id="slide_cont">
+			<div class="swiper-wrapper" id="slide_wrap">
+				<div class="swiper-slide slide-show slide0">
 				</div>
-				<div class="slide-show slide1">
+				<div class="swiper-slide slide-show slide1">
 				</div>
-				<div class="slide-show slide2">
-				</div>
-			</div>
-			<div id="slide_pagnition_cont">
-				<div class="slide-pagnition slide-pagnition-active slide-pagnition-first" id="slide_pagnition0">
-				</div>
-				<div class="slide-pagnition" id="slide_pagnition1">
-				</div>
-				<div class="slide-pagnition" id="slide_pagnition2">
+				<div class="swiper-slide slide-show slide2">
 				</div>
 			</div>
+			<div class="swiper-pagination"></div>
 		</div>
 	</div>
 	<div id="main_cont">
@@ -158,5 +152,6 @@
 		</div>
 	</div>
 	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/swiper-3.4.2.min.js"></script>
 	<script src="js/index.js"></script>
 </html>
