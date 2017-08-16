@@ -5,6 +5,7 @@ var slideWidth=$("#slide_cont").width();
 
 //initialize
 $("#slide_wrap").css("width",N+"00%");
+$(".slide-show").css("width",slideWidth+"px");
 
 //slide
 function slideToPage(pageNum)
