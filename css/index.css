@@ -363,6 +363,10 @@ ul
     {
         width:50%;
     }
+    #footer_menu3
+    {
+        border-left:none;
+    }
 }
 .footer-menu>*
 {
