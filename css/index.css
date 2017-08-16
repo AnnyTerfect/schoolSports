@@ -356,7 +356,7 @@ ul
     border-left:1px solid #DDD;
     text-align: left;
 }
-@media (max-width:479px) and (min-width:1px)
+@media (max-width:479px)
 {
     .footer-menu
     {
@@ -379,6 +379,13 @@ ul
 .footer-ul
 {
     margin-top:20px;
+}
+@media (max-width:479px)
+{
+    .footer-menu
+    {
+        margin:10px 0;
+    }
 }
 .footer-li
 {    
