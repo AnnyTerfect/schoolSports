@@ -22,12 +22,11 @@ ul
 {
     max-width:960px;
     margin:0 auto;
+    padding:10px 0;
 }
 #logo
 {
-    max-width:320px;
-    height:90px;
-    border:1px solid;
+    max-width:160px;
 }
 #nav_bar
 {
