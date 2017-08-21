@@ -64,3 +64,22 @@ var mySwiper = new Swiper ('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable:true,
 		});
+
+//nav click
+var navBlock=document.getElementsByClassName("nav-block");
+$(navBlock[1]).on("click",function()
+{
+    location.href="index.html";
+});
+$(navBlock[2]).on("click",function()
+{
+    location.href="school.html";
+});
+$(navBlock[3]).on("click",function()
+{
+    location.href="sport.html";
+});
+$(navBlock[4]).on("click",function()
+{
+    location.href="standard.html";
+});
